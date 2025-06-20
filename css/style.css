@@ -1,0 +1,85 @@
+.header {
+    background-color: #ffd6b7;
+    background-attachment: fixed;
+    background-image: url('.//img/Untitled-1.png');
+    background-size: cover;
+    background-position: fixed;
+       
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    color: rgb(102, 26, 26);
+    text-align: center;
+    border-radius: 0px 0px 50px 50px;
+    padding: 0px 0 30px 0;
+    font-family: cairo;
+    }
+    div p {
+    font-size: 25px;
+    font-family: cairo; 
+    margin: 10px;
+    padding: 10px 0 50px;
+    position: relative; top: 30px;
+    }
+    .Intro {
+   font-size: 25;
+    font-family: cairo; 
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    }
+    #fff{
+        position: relative;
+        top: 30px;
+        left: 50px;
+        right: 50px;
+    }
+
+       .grill-animation2{
+        position: absolute;
+        top: 100px;
+        right: 7%;
+        width: 300px;
+    }
+    .container {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        right: 50px;
+        width: 80%;
+        height: 100%;
+        size: 100% !important;
+    }
+    .button{
+        position: relative;
+        top: 110px;
+        left: 50%;
+        text-align: center;
+        bottom: 50px;
+        width: 110px;
+    }
+
+.but-primary {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    display: flex;
+    justify-content: center; /* Center the content */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 15px; /* Font size */
+    font-family: cairo;
+    font-display: swap; /* Font display swap */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+.but-primary:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.but-primary:disabled {
+  background-color: #ccc; /* Gray background */
+  color: #666; /* Dimmed text */
+  cursor: not-allowed; /* Disabled cursor */
+}
+
+   
